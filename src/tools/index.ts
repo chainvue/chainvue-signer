@@ -8,6 +8,7 @@ export { createWalletTool } from './create-wallet.js';
 export { signTransactionTool } from './sign-transaction.js';
 export { deleteWalletTool } from './delete-wallet.js';
 export { getAddressTool } from './get-address.js';
+export { sendTransactionTool } from './send-transaction.js';
 
 import { listWalletsTool } from './list-wallets.js';
 import { importKeyTool } from './import-key.js';
@@ -15,12 +16,14 @@ import { createWalletTool } from './create-wallet.js';
 import { signTransactionTool } from './sign-transaction.js';
 import { deleteWalletTool } from './delete-wallet.js';
 import { getAddressTool } from './get-address.js';
+import { sendTransactionTool } from './send-transaction.js';
 
 export const allTools = [
   listWalletsTool,
   importKeyTool,
   createWalletTool,
   signTransactionTool,
+  sendTransactionTool,
   deleteWalletTool,
   getAddressTool,
 ];
